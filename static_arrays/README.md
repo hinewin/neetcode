@@ -62,7 +62,7 @@ def removeEnd(arr, length):
         arr[length - 1] = 0
 ```
 
-![picture 1](images/image.png)
+![picture 1](images/image-1.png)
 > `6` is deleted/overwritten by either `0` or `−1` to denote that it does not exist anymore. Length is also decremented by `1`.
 
 ## Deleting at an ith index
