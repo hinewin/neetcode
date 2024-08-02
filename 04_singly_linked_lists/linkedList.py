@@ -29,4 +29,15 @@ class LinkedList:
                 self.tail = curr
             curr.next = curr.next.next
 
-    
+    def print_list(self):
+        cur = self.head.next # skip dummy node
+        while cur:
+            print (cur.val, end = " -> ")
+            cur = cur.next
+        print (None)
+
+sll = LinkedList()
+sll.insertEnd(1)
+sll.insertEnd(2)
+sll.insertEnd(3)
+sll.print_list()
